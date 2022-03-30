@@ -1,3 +1,11 @@
+# Trabalho GA
+
+Trabalho com objetivo de estudar threads e mutex, é uma aplicação simples que valida se a temperatura em uma determinada estufa excede os valores de temperatura `maior que 30ºC` ou `menor que 20ºC`.
+
+## codigo
+
+```c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
@@ -95,3 +103,6 @@ int main()
 
     exit(0);
 }
+
+
+```
