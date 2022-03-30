@@ -4,6 +4,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <time.h>
+#include <string.h>
 
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
@@ -24,10 +25,16 @@ int vector[10] = {
 void log(char * mensagem, int temperatura){
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
-    printf("time: %d-%02d-%02d %02d:%02d:%02d | ", tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);
-    printf("temp: %d | mensagem: ", temperatura);
-    printf(mensagem);
-    printf("\n\r");
+    char str[200];
+    FILE *f = fopen("log_sensor.txt", "a");
+
+    sprintf(str, "time: %d-%02d-%02d %02d:%02d:%02d | ", tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);
+    sprintf(str + strlen(str), "temp: %d °C | mensagem: ", temperatura);
+    sprintf(str + strlen(str), mensagem);
+    sprintf(str + strlen(str), "\n");
+    fprintf(f, str);
+    fclose(f);
+    printf(str);
 }
 
 void *ta(void *args)

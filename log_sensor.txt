@@ -1,0 +1,25 @@
+
+time: 2022-03-30 16:23:09 | temp: 50 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:09 | temp: 46 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:09 | temp: 47 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:09 | temp: 54 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:09 | temp: 11 °C | mensagem: temperatura menor que 20 graus celsios
+time: 2022-03-30 16:23:09 | temp: 46 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:09 | temp: 16 °C | mensagem: temperatura menor que 20 graus celsios
+time: 2022-03-30 16:23:09 | temp: 33 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:36 | temp: 50 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:36 | temp: 46 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:36 | temp: 47 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:36 | temp: 54 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:36 | temp: 11 °C | mensagem: temperatura menor que 20 graus celsios
+time: 2022-03-30 16:23:36 | temp: 46 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:36 | temp: 16 °C | mensagem: temperatura menor que 20 graus celsios
+time: 2022-03-30 16:23:36 | temp: 33 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:52 | temp: 50 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:52 | temp: 46 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:52 | temp: 47 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:52 | temp: 54 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:52 | temp: 11 °C | mensagem: temperatura menor que 20 graus celsios
+time: 2022-03-30 16:23:52 | temp: 46 °C | mensagem: temperatura maior que 30 graus celsios
+time: 2022-03-30 16:23:52 | temp: 16 °C | mensagem: temperatura menor que 20 graus celsios
+time: 2022-03-30 16:23:52 | temp: 33 °C | mensagem: temperatura maior que 30 graus celsios
